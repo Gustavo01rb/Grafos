@@ -52,6 +52,6 @@ No caso de um grafo (G2) ser ordenado a adjacência é especializada em:</p>
 <table>
   <tr>
     <td>Um laço é uma aresta ou arco do tipo a=(v,v), ou seja, que relaciona um vértice a ele próprio. Em G3 há três ocorrências de laços para um grafo não orientado.</td>
-    <td><img src=" Imagens/Conceitos/Laco.png" width="300" alt=""></td>
+    <td><img src=" Imagens/Conceitos/Laco.png" width="300"> d</td>
   </tr>
 </table>
