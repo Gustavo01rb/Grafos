@@ -51,7 +51,30 @@ No caso de um grafo (G2) ser ordenado a adjacência é especializada em:</p>
 <h4>Laços</h4>
 <table>
   <tr>
-    <td>Um laço é uma aresta ou arco do tipo a=(v,v), ou seja, que relaciona um vértice a ele próprio. Em G3 há três ocorrências de laços para um grafo não orientado.</td>
-    <td> <img src="Imagens/Laco.png" width="300" /> </td>
+    <td>Um laço é uma aresta ou arco do tipo a=(v,v), ou seja, que relaciona um vértice a ele próprio.</td>
+    <td> <img src="Imagens/Laco.png" width="150" /> </td>
   </tr>
+</table>
+
+<h4>Grafos Densos</h4>
+<p>Se um grafo apresenta muitas conexões esse é classificado como denso.
+Nessa classificação o conjunto |E| de arestas é próximo de |V|².</p>
+
+<h4>Grafos Esparsos</h4>
+<p> Quando o conjunto |E| é muito menor que |V|² o grafo é classificado como esparso.</p>
+
+
+<br/>
+<h2>Representações</h2>
+<p>Existem muitas formas de abstrair a ideia de grafos em códigos, muitas possibilidades
+de armazenar dados nesse tipo de estrutura. As mais habituais são: Lista de adjacências,
+Matriz de adjacências, Matriz de incidências.</p>
+<p>Comparativo entre essas formas de exibição:</p>
+<table align="center">
+  <thead>
+    <td></td>
+    <th>Lista de Lista de adjacências</th>
+    <th>Matriz de adjacências</th>
+    <th>Matriz de incidências</th>
+  </thead>
 </table>
