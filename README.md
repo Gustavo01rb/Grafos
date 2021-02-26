@@ -35,6 +35,33 @@ Os movimentos de um cavalo num tabuleiro de xadrez,uma rede de estradas e redes 
    <img src="Imagens/Introducao/Grafo4.png" width="300"/>
  </p>
 
+ <br/>
+ <h2>Conceitos Básicos da Teoria de Grafos</h2>
+
+ <h4>Adjacência</h4>
+ <p>Em um grafo simples (G1) dois nós são adjacentes se há pelo menos uma aresta
+ que os conecte. Esta aresta é dita ser incidente a ambos.
+
+ No caso de um grafo (G2) ser ordenado a adjacência é especializada em:</p>
+ <ul>
+   <li>Sucessor: um vértice W é sucessor de V se há uma aresta que parte de V e chega em w.</li>
+   <li>Antecessor: um vértice V é antecessor de W se há uma aresta que parte de V e chega em W.</li>
+ </ul>
+
+ <h4>Laços</h4>
+ <table>
+   <tr>
+     <td>Um laço é uma aresta ou arco do tipo a=(v,v), ou seja, que relaciona um vértice a ele próprio.</td>
+     <td> <img src="Imagens/Laco.png" width="150" /> </td>
+   </tr>
+ </table>
+
+ <h4>Grafos Densos</h4>
+ <p>Se um grafo apresenta muitas conexões esse é classificado como denso.
+ Nessa classificação o conjunto |E| de arestas é próximo de |V|².</p>
+
+ <h4>Grafos Esparsos</h4>
+ <p> Quando o conjunto |E| é muito menor que |V|² o grafo é classificado como esparso.</p>
 
 <br/>
 <h2>Representações</h2>
