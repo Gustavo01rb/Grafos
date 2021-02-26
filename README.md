@@ -27,10 +27,31 @@ Os movimentos de um cavalo num tabuleiro de xadrez,uma rede de estradas e redes 
  <h4 align="center">Representações visuais</h4>
  <br />
  <p align="center">
-   <img src="Imagens/Grafo1.png" width="300"/>
-   <img src="Imagens/Grafo2.png" width="300"/>
+   <img src="Imagens/Introducao/Grafo1.png" width="300"/>
+   <img src="Imagens/Introducao/Grafo2.png" width="300"/>
  </p>
  <p align="center">
-   <img src="Imagens/Grafo3.png" width="300"/>
-   <img src="Imagens/Grafo4.png" width="300"/>
+   <img src="Imagens/Introducao/Grafo3.png" width="300"/>
+   <img src="Imagens/Introducao/Grafo4.png" width="300"/>
  </p>
+
+<br/>
+<h2>Conceitos Básicos da Teoria de Grafos</h2>
+
+<h4>Adjacência</h4>
+<p>Em um grafo simples (G1) dois nós são adjacentes se há pelo menos uma aresta
+que os conecte. Esta aresta é dita ser incidente a ambos.
+
+No caso de um grafo (G2) ser ordenado a adjacência é especializada em:</p>
+<ul>
+  <li>Sucessor: um vértice W é sucessor de V se há uma aresta que parte de V e chega em w.</li>
+  <li>Antecessor: um vértice V é antecessor de W se há uma aresta que parte de V e chega em W.</li>
+</ul>
+
+<h4>Laços</h4>
+<table>
+  <tr>
+    <td>Um laço é uma aresta ou arco do tipo a=(v,v), ou seja, que relaciona um vértice a ele próprio. Em G3 há três ocorrências de laços para um grafo não orientado.</td>
+    <td><img src=" Imagens/Conceitos/Laco.png" width="300" alt=""></td>
+  </tr>
+</table>
