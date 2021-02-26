@@ -183,3 +183,9 @@ struct GrafoMI{
    int **adj;
 };
 ~~~
+
+
+<h2>Referencias</h2>
+<a href="https://www.revista-programar.info/artigos/grafos-1a-parte/">https://www.revista-programar.info/artigos/grafos-1a-parte/</a>
+<a href="https://pt.wikipedia.org/wiki/Grafo_(tipo_de_dado_abstrato)">https://pt.wikipedia.org/wiki/Grafo_(tipo_de_dado_abstrato)</a>
+<a href="https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/graphdatastructs.html#sec:adjlists">https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/graphdatastructs.html#sec:adjlists</a>
