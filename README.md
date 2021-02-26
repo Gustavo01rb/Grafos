@@ -77,4 +77,36 @@ Matriz de adjacências, Matriz de incidências.</p>
     <th>Matriz de adjacências</th>
     <th>Matriz de incidências</th>
   </thead>
+  <tbody>
+    <tr>
+      <td>Espaço</td>
+      <td align="center">O( |V|+|E| )</td>
+      <td align="center">O( |V|<sup> 2 </sup>) </td>
+      <td align="center">O( |V| . |E| )</td>
+    </tr>
+    <tr>
+      <td>Adicionar Vértice</td>
+      <td align="center">O( 1 )</td>
+      <td align="center">O( |V|<sup> 2 </sup>) </td>
+      <td align="center">O( |V| . |E| )</td>
+    </tr>
+    <tr>
+      <td>Adicionar Aresta</td>
+      <td align="center">O( |V|+|E| )</td>
+      <td align="center">O( 1 ) </td>
+      <td align="center">O( |V| . |E| )</td>
+    </tr>
+    <tr>
+      <td>Remover vértice</td>
+      <td align="center">O( |E| )</td>
+      <td align="center">O( |V|<sup> 2 </sup> ) </td>
+      <td align="center">O( |V| . |E| )</td>
+    </tr>
+    <tr>
+      <td>Remover Aresta</td>
+      <td align="center">O( |V| )</td>
+      <td align="center">O( 1 ) </td>
+      <td align="center">O( |V| . |E| )</td>
+    </tr>
+  </tbody>
 </table>
